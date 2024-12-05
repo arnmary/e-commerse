@@ -1,5 +1,5 @@
 import React from 'react'
-import NotFoundPage from './Notfoundpage'
+import NotFoundPage from './NotFoundPage'
 export default function Brands() {
   return (
     <>
