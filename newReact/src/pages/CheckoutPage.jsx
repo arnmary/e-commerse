@@ -32,11 +32,10 @@ export default function CheckoutPage() {
       errors.name = "Ім'я може містити тільки літери.";
     }
 
-   
-    if (!formData.phone.trim()) {
+    if (!formData.phone || !formData.phone.trim()) {
       errors.phone = 'Телефон є обов’язковим.';
     } else if (!/^\+380\d{9}$/.test(formData.phone.trim())) {
-      errors.phone = 'Введіть номер у форматі +380XXXXXXXXX.';
+      errors.phone = 'Введіть номер у форматі +380XXXXXXXXX';
     }
 
     

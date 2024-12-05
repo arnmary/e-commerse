@@ -6,18 +6,18 @@ export default function RodentsAccsPage() {
     const products =[
         {
             id: 62,
-            imgSrc: '/cage1.jpg',
-            altText: 'Cage',
-            description: 'Клітка для гризунів Природа «Шиншила» 70 x 40 x 60 см (чорна)',
-            price: 3800,
+            imgSrc: '/perenoska.jpg',
+            altText: 'Carrier',
+            description: 'Переноска для гризунів Trixie PICO 30 * 23 * 21 см ',
+            price: 530,
             link: '#',
           },
           {
             id: 63,
-            imgSrc: '/cage1.jpg',
-            altText: 'Cage',
-            description: 'Клітка для гризунів Природа «Шиншила» 70 x 40 x 60 см (чорна)',
-            price: 3800,
+            imgSrc: '/rodBuild.jpg',
+            altText: 'House for rodents',
+            description: 'Будинок для хом`яка Природа Мрія',
+            price: 220,
             link: '#',
           },
           {
@@ -31,11 +31,10 @@ export default function RodentsAccsPage() {
     ];
     const addToCart = (product) => {
         setCart((prevCart) => [...prevCart, product]);
-        alert(`${product.description} додано до кошика!`);
       };
   return (
     <>
-         <h2>Список товарів</h2>
+         <h2 className='text-start inter-500'>Аксесуари для гризунів</h2>
       <div className="product-list w-100 d-flex flex-row flex-wrap">
         {products.map((product) => (
           <div key={product.id} className="product card w-20">
@@ -44,7 +43,7 @@ export default function RodentsAccsPage() {
             <p className="product-price my-5">{product.price} грн.</p>
             <button
               onClick={() => addToCart(product)}
-              className="product-link buyer"
+              className="product-link buyer inter-400"
             >
               Купити
             </button>

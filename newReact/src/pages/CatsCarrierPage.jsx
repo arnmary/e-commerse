@@ -31,7 +31,7 @@ export default function CatsCarrierPage() {
     ];
     const addToCart = (product) => {
         setCart((prevCart) => [...prevCart, product]);
-        alert(`${product.description} додано до кошика!`);
+      
       };
   return (
     <>
@@ -44,7 +44,7 @@ export default function CatsCarrierPage() {
             <p className="product-price my-5">{product.price} грн.</p>
             <button
               onClick={() => addToCart(product)}
-              className="product-link buyer"
+              className="product-link buyer inter-400"
             >
               Купити
             </button>

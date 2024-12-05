@@ -17,7 +17,7 @@ export default function Footer() {
             <ul className="nav justify-content-center border-bottom pb-3 mb-3">
                 {menuItems.map((item, index) => (
                     <li className="nav-item" key={index}>
-                        <Link className="nav-link active link-secondary link-body-emphasis" to={item.to}>
+                        <Link className="nav-link active link-secondary link-body-emphasis inter-400" to={item.to}>
                             {item.name}
                         </Link>
                     </li>

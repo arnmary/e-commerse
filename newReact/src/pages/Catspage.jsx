@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Catsdeck from "../components/Catsdeck";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import RandomProducts from '../components/RandomProducts';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -91,9 +92,7 @@ export function Catspage() {
   {linkEl}
 </div>
 
-<h5>
-  Зазвичай замовляють
-</h5>
+<RandomProducts></RandomProducts>
 
 </div>
 

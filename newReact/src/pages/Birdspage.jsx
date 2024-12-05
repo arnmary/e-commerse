@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import RandomProducts from '../components/RandomProducts';
 export default function Birdspage() {
   const links=[
     { value: 'Корм для птахів', link: '/birds/food' },
@@ -16,7 +17,7 @@ export default function Birdspage() {
   return (
     <>
         <div className='dogsPageDeck d-flex flex-row align-items-center justify-content-between w-100 rounded rounded-2'>
-      <h2 className="dogDeckText p-5 roboto-500">
+      <h2 className="dogDeckText p-5 inter-500">
          🐾Товари для птахів.
           Кращий вибір для вашого улюбленця в PetsMania! 🐾
       </h2>
@@ -25,7 +26,7 @@ export default function Birdspage() {
     <div className="lincsConteiner py-5">
   {linkEl}
 </div>
-     
+     <RandomProducts></RandomProducts>
     </>
   )
 }

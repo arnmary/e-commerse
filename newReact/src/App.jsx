@@ -7,10 +7,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './components/Header';
-// import Main from './components/Main';
 import Homepage from './pages/Homepage';
 import Nav from './components/Nav';
-import Sliderfirst from './components/Sliderfirst';
 import Description from './components/Description';
 import Footer from './components/Footer';
 import Aboutpage from './pages/Aboutpage';
@@ -30,9 +28,9 @@ import RandomProducts from './components/RandomProducts';
 import CatTreatsPage from './pages/CatTreatsPage';
 import CatsCarrierPage from './pages/CatsCarrierPage';
 import CatsToiletPage from './pages/CatsToiletPage';
-import CatsScreatchPage from './pages/CatsScreatchpage';
+import CatsScreatchPage from './pages/CatsScreatchPage';
 import CatCarePage from './pages/CatCarePage';
-import CatDishesPage from './pages/CatDiShesPage';
+import CatDishesPage from './pages/CatDishesPage';
 import DogTreatsPage from './pages/DogTreatsPage';
 import DogAccsPage from './pages/DogAccsPage';
 import DogCarrPage from './pages/DogCarrPage';
@@ -51,6 +49,7 @@ import TerraAccsPage
  import BirdFoodPage from './pages/BirdFoodPage';
  import BirdCagPage from './pages/BirdCagPage';
 import CheckoutPage from './pages/CheckoutPage';
+
 
 function App() {
   const [cart, setCart] = useState([]);

@@ -18,7 +18,7 @@ const getTotalPrice = () => {
   
     return (
       <div className="container py-5">
-        <h2 className="mb-4">Твій кошик</h2>
+        <h2 className="mb-4 inter-500">Твій кошик</h2>
         {cart.length > 0 ? (
           <div className="table-responsive">
             <table className="table table-bordered align-middle">
@@ -45,7 +45,7 @@ const getTotalPrice = () => {
                     <td>{item.price}</td>
                     <td>
                       <button
-                        className="btn btn-danger btn-sm"
+                        className="btn btn-danger btn-sm inter-400"
                         onClick={() => removeFromCart(item.id)}
                       >
                         Видалити
@@ -55,12 +55,12 @@ const getTotalPrice = () => {
                 ))}
               </tbody>
             </table> 
-          <div className="mt-4">
+          <div className="mt-4 inter-400">
             <h4>Загальна сума: {getTotalPrice()} грн.</h4>
           </div>
           <div className="mt-4">
             <button
-              className="btn btn-warning"
+              className="btn btn-warning inter-400"
               onClick={() => navigate('/catalog')} 
             >
               Продовжити покупки

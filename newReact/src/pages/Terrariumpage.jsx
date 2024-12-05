@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Delivery from './Delivery';
+import RandomProducts from '../components/RandomProducts';
 export default function Terrariumpage() {
   const links=[
-    { value: 'Корм для рептилій', link: '/terrarium/food' },
+    // { value: 'Корм для рептилій', link: '/terrarium/food' },
     { value: 'Аксесуари для терраріумів ', link: '/terrarium/accsesories' },
     
   ]
@@ -27,6 +29,9 @@ export default function Terrariumpage() {
   {linkEl}
 </div>
     </div>
+    <RandomProducts></RandomProducts>
+
+    <Delivery></Delivery>
      
     </>
   )

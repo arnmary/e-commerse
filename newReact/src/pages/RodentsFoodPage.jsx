@@ -6,36 +6,35 @@ export default function RodentsFoodPage() {
     const products =[
         {
             id: 65,
-            imgSrc: '/sand.jpg',
-            altText: 'Sand',
-            description: 'WestVet Вулканічний пил для купання та вичісування шерсті «Ніжність» 1 kg.',
-            price: 160,
+            imgSrc: '/crispy.jpg',
+            altText: 'Food for rodents',
+            description: 'Versele-Laga Crispy Muesli Корм для кроликів 1 кг.',
+            price: 220,
             link: '#',
           },
           {
             id: 66,
-            imgSrc: '/sand.jpg',
+            imgSrc: '/seno.jpg',
             altText: 'Sand',
-            description: 'WestVet Вулканічний пил для купання та вичісування шерсті «Ніжність» 1 kg.',
-            price: 160,
+            description: 'Padovan Fieno-Hay сіно для гризунів 20л.',
+            price: 250,
             link: '#',
           },
           {
             id: 67,
-            imgSrc: '/sand.jpg',
+            imgSrc: '/rodFood.jpg',
             altText: 'Sand',
-            description: 'WestVet Вулканічний пил для купання та вичісування шерсті «Ніжність» 1 kg.',
-            price: 160,
+            description: 'Versele-Laga Crispy Pellets Корм для шиншил і дегу',
+            price: 300,
             link: '#',
           },
     ];
     const addToCart = (product) => {
         setCart((prevCart) => [...prevCart, product]);
-        alert(`${product.description} додано до кошика!`);
       };
   return (
     <>
-         <h2>Список товарів</h2>
+         <h2 className='text-start inter-500'>Корм для гризунів</h2>
       <div className="product-list w-100 d-flex flex-row flex-wrap">
         {products.map((product) => (
           <div key={product.id} className="product card w-20">
@@ -44,7 +43,7 @@ export default function RodentsFoodPage() {
             <p className="product-price my-5">{product.price} грн.</p>
             <button
               onClick={() => addToCart(product)}
-              className="product-link buyer"
+              className="product-link buyer inter-400"
             >
               Купити
             </button>

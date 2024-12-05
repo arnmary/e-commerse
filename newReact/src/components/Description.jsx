@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './saleSwiper.css'
-// import './styles.css';
+
 
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';

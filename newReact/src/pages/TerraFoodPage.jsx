@@ -5,7 +5,7 @@ export default function TerraFoodPage() {
     const { cart, setCart } = useContext(CartContext);
     const products =[
         {
-            id: 10,
+            id: 74,
             imgSrc: '/carrier.jpg',
             altText: 'Carrier',
             description: 'AnimAll Переноска для котів та собак до 10 кг',
@@ -13,7 +13,7 @@ export default function TerraFoodPage() {
             link: '#',
           },
           {
-            id: 11,
+            id: 75,
             imgSrc: '/frontalBag.jpg',
             altText: 'Carrier',
             description: 'Сумка-переноска Trixie Sling фронтальна з поліестеру рожева/чорна до 5кг 50*25*18см',
@@ -21,7 +21,7 @@ export default function TerraFoodPage() {
             link: '#',
           },
           {
-            id: 12,
+            id: 76,
             imgSrc: '/carrier.jpg',
             altText: 'Carrier',
             description: 'AnimAll Переноска для котів та собак до 10 кг',
@@ -31,20 +31,19 @@ export default function TerraFoodPage() {
     ];
     const addToCart = (product) => {
         setCart((prevCart) => [...prevCart, product]);
-        alert(`${product.description} додано до кошика!`);
       };
   return (
     <>
-         <h2>Список товарів</h2>
+         <h2 className='text-start  inter-500'>Корм для тераріумів</h2>
       <div className="product-list w-100 d-flex flex-row flex-wrap">
         {products.map((product) => (
           <div key={product.id} className="product card w-20">
             <img src={product.imgSrc} alt={product.altText} className="product-image w-100" />
             <h3 className="product-description">{product.description}</h3>
-            <p className="product-price my-5">{product.price}</p>
+            <p className="product-price my-5">{product.price} грн.</p>
             <button
               onClick={() => addToCart(product)}
-              className="product-link buyer"
+              className="product-link buyer inter-400"
             >
               Купити
             </button>

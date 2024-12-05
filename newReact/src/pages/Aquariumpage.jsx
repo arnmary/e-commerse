@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import RandomProducts from '../components/RandomProducts';
 
 export default function Aquariumpage() {
   const links=[
@@ -29,7 +30,7 @@ export default function Aquariumpage() {
   {linkEl}
 </div>
     </div>
-     
+     <RandomProducts></RandomProducts>
     </>
   )
 }

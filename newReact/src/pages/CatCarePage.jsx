@@ -31,11 +31,11 @@ export default function CatCarePage() {
     ];
     const addToCart = (product) => {
         setCart((prevCart) => [...prevCart, product]);
-        alert(`${product.description} додано до кошика!`);
+        // alert(`${product.description} додано до кошика!`);
       };
   return (
     <>
-         <h2>Список товарів</h2>
+         <h2 className=' text-start inter-500'> Переноски та сумки для котів</h2>
       <div className="product-list w-100 d-flex flex-row flex-wrap">
         {products.map((product) => (
           <div key={product.id} className="product card w-20">

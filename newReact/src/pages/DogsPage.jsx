@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
+import RandomProducts from '../components/RandomProducts';
 // import DogsProductTreats from './DogsProductTreats';
 import Dogsdeck from '../components/Dogsdeck';
 
@@ -103,7 +104,7 @@ export default function Dogspage() {
    {/* < DogsProductTreats></DogsProductTreats> */}
    </div>
 
-  
+  <RandomProducts></RandomProducts>
 
   </div>
   

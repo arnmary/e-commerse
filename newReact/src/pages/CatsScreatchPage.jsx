@@ -6,37 +6,36 @@ export default function CatsScreatchPage() {
     const { cart, setCart } = useContext(CartContext);
     const products =[
         {
-            id: 910,
-            imgSrc: '/carrier.jpg',
-            altText: 'Carrier',
-            description: 'AnimAll Переноска для котів та собак до 10 кг',
-            price: '500 грн.',
+            id: 76,
+            imgSrc: '/trixyScratch.jpg',
+            altText: 'Screatcher',
+            description: 'Trixie Кігтеточка(дряпка) Mimi Wave з картону 50*9*23 см.',
+            price: 400,
             link: '#',
           },
           {
-            id: 911,
-            imgSrc: '/frontalBag.jpg',
-            altText: 'Carrier',
-            description: 'Сумка-переноска Trixie Sling фронтальна з поліестеру рожева/чорна до 5кг 50*25*18см',
-            price: '1050 грн.',
+            id: 77,
+            imgSrc: '/trixyScratch2.jpg',
+            altText: 'Screatcher',
+            description: 'Trixie Кігтеточка(дряпка) Espejo',
+            price: 1400,
             link: '#',
           },
           {
-            id: 912,
-            imgSrc: '/carrier.jpg',
-            altText: 'Carrier',
-            description: 'AnimAll Переноска для котів та собак до 10 кг',
-            price: '500 грн.',
+            id: 78,
+            imgSrc: '/dryapka.jpg',
+            altText: 'Screatcher',
+            description: 'Пухнистики Кігтеточка-драпак з полицею і напівтунелем',
+            price: 750,
             link: '#',
           },
     ];
     const addToCart = (product) => {
         setCart((prevCart) => [...prevCart, product]);
-        alert(`${product.description} додано до кошика!`);
       };
   return (
     <>
-         <h2>Список товарів</h2>
+         <h2 className='text-start inter-500'>Кігтеточкиб(дряпки) для котів</h2>
       <div className="product-list w-100 d-flex flex-row flex-wrap">
         {products.map((product) => (
           <div key={product.id} className="product card w-20">
@@ -45,7 +44,7 @@ export default function CatsScreatchPage() {
             <p className="product-price my-5">{product.price}</p>
             <button
               onClick={() => addToCart(product)}
-              className="product-link buyer"
+              className="product-link buyer inter-400"
             >
               Купити
             </button>

@@ -81,7 +81,6 @@ height: 15rem;
 }
 
 .product-image {
-  /* width: 100%; */
   width: 15rem;
   height: 16rem;
   height: auto;
@@ -124,6 +123,7 @@ height: 15rem;
   border-radius: 5px;
   margin-bottom: 5px;
   transition: background-color 0.2s;
+  border: none;
 }
 
 .product-link:hover {
@@ -149,16 +149,60 @@ height: 15rem;
   background-image: url(/notFound1.jpg);
   width: 100%;
 }
+.review{
+  background-color: white;
+border: 0.1rem solid black;
 
-/* @media (max-width: 768px) { 
-  .notFound{ 
-max-width: 50rem;
-  }
-} */
+margin: 1rem;
+}
+
 #mission{
+  min-height: 20rem;
   background-image: url(/groupPets.jpg);
   background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
 
+}
+@media (max-width: 650px) {
+  .blockImage {
+      flex-direction: column; 
+      text-align: center;
+  }
+  .product{
+    height: fit-content;
+  }
+
+  .descText{
+    max-width: 50%;
+  line-height: 1.2rem;
+      font-size: 1.5rem; 
+      padding: 0.7rem;
+      font-size: 1rem;
+  }
+
+  #dogs {
+      width: 80%; 
+  }
+  .dogDeckText{
+    max-width: 50%;
+    line-height: 1.2rem;
+    font-size: 1rem;
+   padding: 0.5rem 1rem; 
+   text-align: start;
+  }
+  .catImage{
+    width: 60%;
+  }
+  .review{
+   min-width: 70%;
+    padding: 1rem;
+  }
+  .reviews{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
