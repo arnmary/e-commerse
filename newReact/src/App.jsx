@@ -23,7 +23,7 @@ import Aquariumpage from './pages/Aquariumpage';
 import Terrariumpage from './pages/Terrariumpage';
 import Brands from './pages/Brands';
 import CardBlock from './components/CardBlock';
-import OfferPage from './pages/Offerpage';
+import OfferPage from './pages/OfferPage'
 import RandomProducts from './components/RandomProducts';
 import CatTreatsPage from './pages/CatTreatsPage';
 import CatsCarrierPage from './pages/CatsCarrierPage';
