@@ -1,0 +1,21 @@
+{
+  "sliderImages": [
+    "/baner1.jpg",
+    "/baner2.jpg",
+    "/baner3.jpg",
+    "/baner4.jpg",
+    "/baner5.jpg",
+     "/baner6.jpg"
+    
+  ],
+  "Links": [
+    { "value": "Ласощі для котів", "category": "catsTreats" },
+    { "value": "Переноски для котів", "category": "catCarriers" },
+    { "value": "Туалети для котів", "category": "catsToilets" },
+    { "value": "Дряпки для котів", "category": "catsScratches" },
+    { "value": "Догляд за котами", "category": "catsCare" },
+    { "value": "Миски та поїлки для котів", "category": "catsDishes" }
+  ]
+}
+
+  

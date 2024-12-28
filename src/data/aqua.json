@@ -1,0 +1,7 @@
+{
+    "Links": [
+        { "value": "Корм для риб", "category": "fishFood" },
+        { "value": "Засоби для чищення акваріумів", "category": "aquaHyg" },
+        { "value": "Аксесуари для акваріумів ", "category": "aquaAccs" }
+      ]   
+}

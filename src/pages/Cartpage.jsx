@@ -81,7 +81,7 @@ const getTotalPrice = () => {
 
           </div>
         ) : (
-          <p>Кошик порожній</p>
+          <p className='someText p-5'>Кошик порожній</p>
         )}
       </div>
     );

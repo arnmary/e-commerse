@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Main.css';
 import { useCart } from '../CartContext';
@@ -19,7 +19,6 @@ export default function Header() {
                 PetsMania
               </h1>
             </div>
-
             <button
               className="navbar-toggler p-0 border-0"
               type="button"
@@ -89,18 +88,12 @@ export default function Header() {
                   </ul>
                 </li>
               </ul>
-              <button className='rounded rounded-5 bg-warning border-0 py-1 mx-3 ' id='basket'>
-            
-              <Link className="nav-link" to="/cart">
-                    <FontAwesomeIcon icon="fa-solid fa-basket-shopping" />{cart.length}
-                  </Link>
-                  
-              </button>
-              {/* <form className="d-flex" role="search">
-                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              </form> */}
             </div>
-            
+      <button className='rounded rounded-5 bg-warning border-0 py-1 mx-3 ' id='basket'>
+        <Link className="nav-link" to="/cart">
+          <FontAwesomeIcon icon="fa-solid fa-basket-shopping" />{cart.length}
+        </Link> 
+     </button>
           </div>
         </nav>
       </header>

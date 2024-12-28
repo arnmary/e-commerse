@@ -1,0 +1,7 @@
+{
+    "Links": [
+        { "value": "Корм для гризунів", "category": "rodentsFood" },
+        { "value": "Гігієна гризунів", "category": "rodentsHyg" },
+        { "value": "Клітки та аксесуари для гризунів", "category": "rodentsAccs" }
+      ]
+}

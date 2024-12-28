@@ -73,7 +73,7 @@ export default function RandomProducts() {
 
   useEffect(() => {
     const shuffled = shuffleArray(products);
-    setRandomProducts(shuffled.slice(0, 3));
+    setRandomProducts(shuffled.slice(0, 6));
   }, []);
 
   const addToCart = (product) => {

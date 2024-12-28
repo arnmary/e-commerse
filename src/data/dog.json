@@ -1,0 +1,14 @@
+{
+    "sliderImages":[
+        "/baner3.jpg",
+        "/baner5.jpg"
+    ],
+    "Links":[
+        { "value": "Ласощі для собак", "category": "dogsTreats" },
+        { "value": "Аксесуари для собак", "category": "dogsAccs" },
+        { "value": "Переноски  для собак", "category": "dogsCarriers"},
+        { "value": "Амуніція для собак", "category": "dogsClothing" },
+        { "value": "Гігієна  собак", "category": "dogsHyg" },
+        { "value": "Миски для собак", "category": "dogsDishes" }
+    ]
+}
