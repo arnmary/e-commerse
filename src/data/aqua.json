@@ -3,5 +3,88 @@
         { "value": "Корм для риб", "category": "fishFood" },
         { "value": "Засоби для чищення акваріумів", "category": "aquaHyg" },
         { "value": "Аксесуари для акваріумів ", "category": "aquaAccs" }
-      ]   
+      ], 
+      "products": [
+        {
+          "id": 4,
+          "imgSrc": "/fishFood.jpg",
+          "category": "fishFood",
+          "altText": "Flakes",
+          "description": "Корм для всіх тропічних риб Tetra MIN 500 ml.",
+          "price": 550,
+          "link": "#"
+        },
+        {
+          "id": 5,
+          "imgSrc": "/fishFood1.jpg",
+          "category": "fishFood",
+          "altText": "Flakes",
+          "description": "Корм для всіх акваріумних риб Tetra PRO Energy Crisps 30 ml",
+          "price": 75,
+          "link": "#"
+        },
+        {
+          "id": 6,
+          "imgSrc": "/fishFood2.jpg",
+          "category": "fishFood",
+          "altText": "Fish food",
+          "description": "Корм для Гуппі Tetra Guppy 30 ml.",
+          "price": 85,
+          "link": "#"
+        },
+        {
+          "id": 1,
+          "imgSrc": "/fishFeeder.png",
+          "category": "aquaAccs",
+          "altText": "Feeder",
+          "description": "Годівниця автоматична для акваріума Juwel (89000)",
+          "price": 1650,
+          "link": "#"
+        },
+        {
+          "id": 2,
+          "imgSrc": "/fishFeeder2.jpg",
+          "category": "aquaAccs",
+          "altText": "Feeder",
+          "description": "Автоматична годівниця для риб Sunsun AK-02",
+          "price": 950,
+          "link": "#"
+        },
+        {
+          "id": 3,
+          "imgSrc": "/aquaAccs.jpg",
+          "category": "aquaAccs",
+          "altText": "Carpet",
+          "description": "Кришка світильник для акваріума Природа LED LIGHT 60х30 ПР (PR241936)",
+          "price": 3000,
+          "link": "#"
+        },
+        {
+          "id": 7,
+          "imgSrc": "/filtrAqua.jpg",
+          "category": "aquaHyg",
+          "altText": "Filtr",
+          "description": "Фільтр внутрішній для акваріума Aquael Pat Mini (107715 /111121)",
+          "price": 800,
+          "link": "#"
+        },
+        {
+          "id": 8,
+          "imgSrc": "/filtrAqua1.jpg",
+          "category": "aquaHyg",
+          "altText": "Filtr",
+          "description": "Фільтр для акваріума AQUA EL FAN 3 Plus (102370 /3071)",
+          "price": 1030,
+          "link": "#"
+        },
+        {
+          "id": 9,
+          "imgSrc": "/filtrAqua2.jpg",
+          "category": "aquaHyg",
+          "altText": "Filtr",
+          "description": "Внутрішній фільтр для акваріума Aquael Turbo Filter 1000 (109403)",
+          "price": 850,
+          "link": "#"
+        }
+      ] 
 }

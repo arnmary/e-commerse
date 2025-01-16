@@ -8,6 +8,7 @@ export default function Homepage() {
       <Description></Description>
     <RandomProducts></RandomProducts>
     <Reviews></Reviews>
+
     </div>
   )
 }

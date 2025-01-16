@@ -1,6 +1,66 @@
 {
+  "sliderImages": [
+    "/baner3.jpg",
+    "/baner5.jpg"
+],
     "Links": [
         { "value": "Корм для птахів", "category": "birdFood" },
         { "value": "Клітки та аксесуари для птахів", "category": "birdCag" }
+      ],
+      "products":[
+        {
+          "id": 13,
+          "imgSrc": "/birdFood.jpg",
+          "category": "birdFood",
+          "altText": "Food for bird",
+          "description": "Корм для хвилястих папуг Vitakraft Premium Menu 1 кг.",
+          "price": 320,
+          "link": "#"
+        },
+        {
+          "id": 14,
+          "imgSrc": "/birdFood1.jpg",
+          "category": "birdFood",
+          "altText": "Food for bird",
+          "description": "Корм для амадин Vitakraft «Premium Menu» 500 г",
+          "price": 200,
+          "link": "#"
+        },
+        {
+          "id": 15,
+          "imgSrc": "/birdFood2.jpg",
+          "category": "birdFood",
+          "altText": "Food for bird",
+          "description": "Корм для середніх папуг Vitakraft «Premium Menu» 1 кг",
+          "price": 360,
+          "link": "#"
+        },
+        {
+          "id": 10,
+          "imgSrc": "/birdCag.jpg",
+          "category": "birdCag",
+          "altText": "Cage",
+          "description": "Клітка для птахів Природа Арка (PR241494)",
+          "price": 1500,
+          "link": "#"
+        },
+        {
+          "id": 11,
+          "imgSrc": "/birdCag1.jpg",
+          "category": "birdCag",
+          "altText": "Cage",
+          "description": "Клітка для птахів Fop Anita BIG FUN 53*32*67 см.",
+          "price": 5000,
+          "link": "#"
+        },
+        {
+          "id": 12,
+          "imgSrc": "/birdCag2.jpg",
+          "category": "birdCag",
+          "altText": "Cage",
+          "description": "Клітка для птахів Природа Белла 37*25*37 см.",
+          "price": 1300,
+          "link": "#"
+        }
       ]
 }

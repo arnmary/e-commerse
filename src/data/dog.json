@@ -1,14 +1,196 @@
 {
-    "sliderImages":[
+    "sliderImages": [
         "/baner3.jpg",
         "/baner5.jpg"
     ],
-    "Links":[
-        { "value": "Ласощі для собак", "category": "dogsTreats" },
-        { "value": "Аксесуари для собак", "category": "dogsAccs" },
-        { "value": "Переноски  для собак", "category": "dogsCarriers"},
-        { "value": "Амуніція для собак", "category": "dogsClothing" },
-        { "value": "Гігієна  собак", "category": "dogsHyg" },
-        { "value": "Миски для собак", "category": "dogsDishes" }
+    "Links": [
+        {
+            "value": "Ласощі для собак",
+            "category": "dogsTreats"
+        },
+        {
+            "value": "Аксесуари для собак",
+            "category": "dogsAccs"
+        },
+        {
+            "value": "Переноски  для собак",
+            "category": "dogsCarriers"
+        },
+        {
+            "value": "Амуніція для собак",
+            "category": "dogsClothing"
+        },
+        {
+            "value": "Гігієна  собак",
+            "category": "dogsHyg"
+        },
+        {
+            "value": "Миски для собак",
+            "category": "dogsDishes"
+        }
+    ],
+    "products" : [
+        {
+            "id": 59,
+            "imgSrc": "/dogTreats.jpg",
+            "category":"dogsTreats",
+            "altText": "Treats",
+            "description": "Trixie Bonny Mix Кісточки для собак 500g.",
+            "price": 280,
+            "link": "#"
+        },
+        {
+            "id": 60,
+            "imgSrc": "/dogTreats1.jpg",
+           "category":"dogsTreats",
+            "altText": "Treats",
+            "description": "Trixie Premio Rice Duck Bones Кісточки з качкою та рисом для собак 80g.",
+            "price": 110,
+            "link": "#"
+        },
+        {
+            "id": 61,
+            "imgSrc": "/dogTreats2.jpg",
+            "category":"dogsTreats",
+            "altText": "Treats",
+            "description": "Trixie Premio Chickies Курячі кісточки з кальцієм для собак",
+            "price": 150,
+            "link": "#"
+        },
+        {
+            "id": 47,
+            "imgSrc": "/carrier.jpg",
+            "category":"dogsCarriers",
+            "altText": "Carrier",
+            "description": "AnimAll Переноска для котів та собак до 10 кг 58*42*42",
+            "price": 760,
+            "link":"'#"
+        },
+        {
+            "id": 48,
+            "imgSrc": "/frontalBag.jpg",
+            "category":"dogsCarriers",
+            "altText": "Carrier",
+            "description": "Сумка-переноска Trixie Sling фронтальна з поліестеру рожева/чорна до 5кг 50*25*18см",
+            "price": 1050,
+            "link": "#"
+        },
+        {
+            "id": 49,
+            "imgSrc": "/dogCarrier.jpg",
+            "category":"dogsCarriers",
+            "altText": "Carrier",
+            "description": "Trixie Skudo - універсальна переноска для собак 30*32*49",
+            "price": 1260,
+            "link": "#"
+        },
+        {
+            "id": 44,
+            "imgSrc": "/prod1.jpg",
+            "category":"dogsAccs",
+            "altText": "Leash",
+            "description": "M-Pets (М-Петс) Liberty Dog Retractable Leash - Повідець-рулетка для собак",
+            "price": 450,
+            "link": "#"
+        },
+        {
+            "id": 45,
+            "imgSrc": "/harness.jpg",
+            "category":"dogsAccs",
+            "altText": "Harness",
+            "description": "Trixie Silver Reflect Шлея для собак, світловідбиваюча",
+            "price": 650,
+            "link": "#"
+        },
+        {
+            "id": 46,
+            "imgSrc": "/collar.jpg",
+            "category":"dogsAccs",
+            "altText": "Collar",
+            "description": "AnimAll Нашийник для собак «Хмаринки»",
+            "price": 190,
+            "link": "#"
+        },
+        {
+            "id": 50,
+            "imgSrc": "/dogCloth.jpg",
+            "category":"dogsClothing",
+            "altText": " Cloth for dog",
+            "description": "Pet Fashion Костюм «Judy» для дівчаток, пудровий xs",
+            "price": 900,
+            "link": "#"
+        },
+        {
+            "id": 51,
+            "imgSrc": "/dogsCloth2.jpg",
+            "category":"dogsClothing",
+            "altText": "Cloth pets",
+            "description": "Pet Fashion Комбінезон «Cold» для собак, бірюза s ",
+            "price": 800,
+            "link": "#"
+        },
+        {
+            "id": 52,
+            "imgSrc": "/dogCloth1.jpg",
+            "category":"dogsClothing",
+            "altText": "Cloth for pets",
+            "description": "Collar AiryVest One Курточка для собак, чорна m40",
+            "price": 780,
+            "link": "#"
+        },
+        {
+            "id": 56,
+            "imgSrc": "/dogSpray.jpg",
+            "category":"dogsHyg",
+            "altText": "Spray",
+            "description": "VetExpert NanoSilver Chlorhexidine Антибактеріальний спрей з наносріблом і хлоргексидином для котів і собак",
+            "price": 375,
+            "link": "#"
+        },
+        {
+            "id": 57,
+            "imgSrc": "/dogShamp.jpg",
+            "category":"dogsHyg",
+            "altText": "Shampoo",
+            "description": "VetExpert Specialist Shampoo Антибактеріальний протигрибковий шампунь для котів і собак 250ml.",
+            "price": 650,
+            "link": "#"
+        },
+        {
+            "id": 58,
+            "imgSrc": "/diapers.jpg",
+            "category":"dogsHyg",
+            "altText": "Diapers",
+            "description": "Trixie Пелюшки для собак 40*60см 50шт.",
+            "price": 650,
+            "link": "#"
+        },
+        {
+            "id": 53,
+            "imgSrc": "/dogsBowl.jpg",
+            "category":"dogsDishes",
+            "altText": "Bowl",
+            "description": "Trixie Eat on Feet Миски для собак, подвійна на підставці 2*200",
+            "price": 170,
+            "link": "#"
+        },
+        {
+            "id": 54,
+            "imgSrc": "/dogBowl1.jpg",
+            "category":"dogsDishes",
+            "altText": "Bottle",
+            "description": "Trixie Поїлка з мискою для собак 500ml.",
+            "price": 230,
+            "link": "#"
+        },
+        {
+            "id": 55,
+            "imgSrc": "/dogBowl2.jpg",
+            "category":"dogsDishes",
+            "altText": "Bowl",
+            "description": "Trixie Миска для собак подвійна, біла",
+            "price": 590,
+           " link": "#"
+        }
     ]
 }

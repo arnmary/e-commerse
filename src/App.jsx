@@ -26,6 +26,9 @@ import CardBlock from './components/CardBlock';
 import OfferPage from './pages/OfferPage';
 import RandomProducts from './components/RandomProducts';
 import CheckoutPage from './pages/CheckoutPage';
+import Products from './components/Products';
+import Slider from './components/Slider';
+
 
 function App() {
   const [cart, setCart] = useState([]);
