@@ -1,5 +1,4 @@
 import React,{useState,} from 'react';
-// import { useContext } from 'react';
 import { useCart } from '../CartContext';
 import { useNavigate } from 'react-router-dom';
 

@@ -226,8 +226,8 @@ height: 15rem;
   .dogsPageDeck{
     overflow: hidden;
   }
-  .catImage{
-    width: 60%;
+  .catImage .parrotImage{
+    max-width: 60%;
   }
   .review{
    min-width: 70%;

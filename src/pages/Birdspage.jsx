@@ -8,12 +8,12 @@ export default function Birdspage() {
 
   return (
     <>
-      <div className='birdsPageDeck d-flex flex-row align-items-center justify-content-between w-100 rounded rounded-2'>
-        <h2 className="birdDeckText p-5 inter-500">
+      <div className='birdsPageDeck dogsPageDeck d-flex flex-row align-items-center justify-content-between w-100 rounded rounded-2'>
+        <h2 className="birdDeckText dogDeckText p-5 inter-500">
           🐾 Товари для птахів.
           Кращий вибір для вашого улюбленця в PetsMania! 🐾
         </h2>
-        <img src="/parrot.png" alt="Parrot image" className='parrotImage' />
+        <img src="/parrot.png" alt="Parrot image" className='parrotImage ' />
       </div>
       <Slider sliderImages={sliderImages}/>
       <Products Links={Links} products={products} />
