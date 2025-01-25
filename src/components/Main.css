@@ -220,14 +220,14 @@ height: 15rem;
     max-width: 50%;
     line-height: 1.2rem;
     font-size: 1rem;
-   padding: 0.5rem 1rem; 
+   padding: 0.1rem 0.3rem; 
    text-align: start;
   }
   .dogsPageDeck{
     overflow: hidden;
   }
-  .catImage .parrotImage{
-    max-width: 60%;
+  .catImage, .parrotImage{
+    max-width: 69%;
   }
   .review{
    min-width: 70%;
